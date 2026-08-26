@@ -1,0 +1,6 @@
+{
+  "name": "FreePerks",
+  "description": "A modern, searchable directory of free tools, developer software, hosting, cloud credits, and perks for students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
