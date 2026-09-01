@@ -22,6 +22,7 @@ import {
   ShieldCheck,
   CheckCircle2
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import { Category, ToolItem } from './types';
 import { INITIAL_TOOLS, GITHUB_PACK_DATA, CATEGORIES } from './data/tools';
 import { Navbar } from './components/Navbar';
@@ -410,6 +411,9 @@ export default function App() {
         onOpenAboutModal={(type) => setAboutModalState({ isOpen: true, type })}
         onScrollToTop={scrollToTop}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
